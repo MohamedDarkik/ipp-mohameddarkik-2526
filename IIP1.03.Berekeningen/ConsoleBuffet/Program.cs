@@ -1,6 +1,6 @@
 using System;
 
-class BuffetRestaurant
+internal class NewBaseType
 {
     const double VolwassenBuffetPrijs = 18.5;
     const double DessertBuffetPrijs = 7.95;
@@ -57,4 +57,8 @@ class BuffetRestaurant
         Console.WriteLine("0 stuk(ken) van 0.5");
         Console.WriteLine("0 stuk(ken) van 0.1");
     }
+}
+
+class BuffetRestaurant : NewBaseType
+{
 }
